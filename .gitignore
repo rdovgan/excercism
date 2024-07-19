@@ -27,13 +27,7 @@ replay_pid*
 
 /.gradle/*
 */.gradle/*
-/gradle/*
-*/gradle/*
 */build/*
-gradlew
-gradlew.bat
-*/gradlew
-*/gradlew.bat
 
 .idea/*
 *.iml
