@@ -1,32 +1,36 @@
+import java.util.Arrays;
 
 class BirdWatcher {
-    private final int[] birdsPerDay;
 
-    public BirdWatcher(int[] birdsPerDay) {
-        this.birdsPerDay = birdsPerDay.clone();
-    }
+	private static final int BUSY_DAY = 5;
 
-    public int[] getLastWeek() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.getLastWeek() method");
-    }
+	private final int[] birdsPerDay;
 
-    public int getToday() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.getToday() method");
-    }
+	public BirdWatcher(int[] birdsPerDay) {
+		this.birdsPerDay = birdsPerDay.clone();
+	}
 
-    public void incrementTodaysCount() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.incrementTodaysCount() method");
-    }
+	public int[] getLastWeek() {
+		return birdsPerDay;
+	}
 
-    public boolean hasDayWithoutBirds() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.hasDayWithoutBirds() method");
-    }
+	public int getToday() {
+		return birdsPerDay[birdsPerDay.length - 1];
+	}
 
-    public int getCountForFirstDays(int numberOfDays) {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.getCountForFirstDays() method");
-    }
+	public void incrementTodaysCount() {
+		birdsPerDay[birdsPerDay.length - 1] = ++birdsPerDay[birdsPerDay.length - 1];
+	}
 
-    public int getBusyDays() {
-        throw new UnsupportedOperationException("Please implement the BirdWatcher.getBusyDays() method");
-    }
+	public boolean hasDayWithoutBirds() {
+		return Arrays.stream(birdsPerDay).anyMatch(i -> i == 0);
+	}
+
+	public int getCountForFirstDays(int numberOfDays) {
+		return Arrays.stream(birdsPerDay).limit(numberOfDays).sum();
+	}
+
+	public int getBusyDays() {
+		return (int) Arrays.stream(birdsPerDay).filter(birds -> birds >= BUSY_DAY).count();
+	}
 }
