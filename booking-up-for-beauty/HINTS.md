@@ -17,7 +17,8 @@
 ## 4. Describe the time and date of the appointment
 
 - Use a [`DateTimeFormatter`][datetimeformatter-docs] with a custom pattern to format the `LocalDateTime`.
-- The tests are running as if running on a machine in the United States, so make sure that the formatter [uses the correct locale][datetimeformatter-ofpattern-with-locale].
+- The tests are running as if running on a machine in the United States, so make sure that the
+  formatter [uses the correct locale][datetimeformatter-ofpattern-with-locale].
 
 ## 5. Return the anniversary date
 
@@ -25,7 +26,11 @@
 - Accessing the year of a `LocalDate` instance can de done through one of its [methods][localdate-methods].
 
 [localdate-methods]: https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html
+
 [localdatetime-methods]: https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html
+
 [localdatetime-parse]: https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html#parse-java.lang.CharSequence-java.time.format.DateTimeFormatter-
+
 [datetimeformatter-docs]: https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+
 [datetimeformatter-ofpattern-with-locale]: https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ofPattern-java.lang.String-java.util.Locale-

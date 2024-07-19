@@ -19,5 +19,7 @@
 - You can re-use the existing functionality that does take an explicit travel method.
 
 [string-concatenation]: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#concat-java.lang.String-
+
 [method-overloading]: https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html#overloading
+
 [if-statement]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html

@@ -31,4 +31,5 @@
 - Add a conditional to display the empty battery message if the battery is drained.
 
 [creating-objects]: https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html
+
 [fields]: https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html

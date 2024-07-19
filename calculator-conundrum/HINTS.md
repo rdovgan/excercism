@@ -15,4 +15,5 @@
 - The `IllegalOperationException` class has a constructor that takes a message and a cause as its parameters.
 
 [switch-statement-docs]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
 [exception-handling-docs]: https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html

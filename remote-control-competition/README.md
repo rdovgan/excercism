@@ -9,7 +9,8 @@ If you get stuck on the exercise, check out `HINTS.md`, but try and solve it wit
 ## Interfaces
 
 An interface is a type containing members defining a group of related functionality.
-It distances the uses of a class from the implementation allowing multiple different implementations or support for some generic behavior such as formatting, comparison or conversion.
+It distances the uses of a class from the implementation allowing multiple different implementations or support for some generic behavior such as formatting,
+comparison or conversion.
 
 The syntax of an interface is similar to that of a class except that methods appear as the signature only and no body is provided.
 

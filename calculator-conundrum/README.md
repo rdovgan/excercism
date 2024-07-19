@@ -27,7 +27,8 @@ Java distinguishes three types of exceptions:
 _Checked exceptions_ are exceptional conditions that an application should anticipate and recover from.
 An example of a checked exception is the `FileNotFoundException` which occurs when a method is trying to read a file that does not exist.
 
-This type of exception is checked at compile-time: methods that throw checked exceptions should specify this in their method signature, and code calling a method that might throw a checked exception is required to handle it or the code will not compile.
+This type of exception is checked at compile-time: methods that throw checked exceptions should specify this in their method signature, and code calling a
+method that might throw a checked exception is required to handle it or the code will not compile.
 
 All exceptions in Java that do not inherit from `RuntimeException` or `Error` are considered checked exceptions.
 
@@ -36,7 +37,8 @@ All exceptions in Java that do not inherit from `RuntimeException` or `Error` ar
 _Unchecked exceptions_ are exceptional conditions that an application usually cannot anticipate or recover from.
 An example of an unchecked exception is the `NullPointerException` which occurs when a method that is expecting a non-null value but receives `null`.
 
-This type of exception is not checked at compile-time: methods that throw unchecked exceptions are not required to specify this in their method signature, and code calling a method that might throw an unchecked exception is not required to handle it.
+This type of exception is not checked at compile-time: methods that throw unchecked exceptions are not required to specify this in their method signature, and
+code calling a method that might throw an unchecked exception is not required to handle it.
 
 All exceptions in Java that inherit from `RuntimeException` are considered unchecked exceptions.
 
@@ -56,7 +58,8 @@ A method in Java can throw an exception by using the `throw` statement.
 
 #### Throwing a checked exception
 
-When throwing a checked exception from a method, it is required to specify this in the method signature by using the `throws` keyword, as shown in the example below.
+When throwing a checked exception from a method, it is required to specify this in the method signature by using the `throws` keyword, as shown in the example
+below.
 This forces calling code to anticipate that an exception might be thrown and handle it accordingly.
 
 ```java
@@ -97,7 +100,8 @@ Handling exceptions in Java is done with the `try`, `catch` and `finally` keywor
 
 - Code statements that might throw an exception should be wrapped in a `try` block.
 - The `try` block is followed by one or more `catch` blocks that catch the exceptions thrown in the `try` block.
-- The `catch` blocks are optionally followed by a `finally` block that always executes after the `try` block, regardless of whether an exception was thrown or not.
+- The `catch` blocks are optionally followed by a `finally` block that always executes after the `try` block, regardless of whether an exception was thrown or
+  not.
 
 The following example shows how these keywords work:
 
@@ -180,7 +184,8 @@ Update the `CalculatorConundrum.calculate()` method to handle illegal operations
 
 - When the `operation` argument is `null`, an `IllegalArgumentException` should be thrown with the message `Operation cannot be null`.
 - When the `operation` argument is `""`, an `IllegalArgumentException` should be thrown with the message `Operation cannot be empty`.
-- When the `operation` argument is any operation other than `+`, `*`, or `/`, an `IllegalOperationException` should be thrown with the message `Operation '{operation}' does not exist`.
+- When the `operation` argument is any operation other than `+`, `*`, or `/`, an `IllegalOperationException` should be thrown with the
+  message `Operation '{operation}' does not exist`.
 
 ```java
 calculator.calculate(10, 1, null);
@@ -196,7 +201,8 @@ calculator.calculate(10, 1, "-");
 ## 3. Handle the exception thrown when dividing by zero
 
 In Java, attempting to divide by zero throws an `ArithmeticException`.
-Update the `CalculatorConundrum.calculate()` method to catch this exception and then throw an `IllegalOperationException` with the message `Division by zero is not allowed` and the caught `ArithmeticException` as its cause.
+Update the `CalculatorConundrum.calculate()` method to catch this exception and then throw an `IllegalOperationException` with the
+message `Division by zero is not allowed` and the caught `ArithmeticException` as its cause.
 
 ```java
 calculator.calculate(512, 0, "/");

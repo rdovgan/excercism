@@ -28,8 +28,10 @@ The most-used built-in class that implements this interface is the [`HashSet`][h
 Set<Integer> ints = new HashSet<>();
 ```
 
-The `Set` interface extends from the [`Collection`][collection-docs] and [`Iterable`][iterable-docs] interfaces, and therefore shares a lot of methods with other types of collections.
-A notable difference to the `Collection` interface, however, is that methods like `add` and `remove` return a `boolean` (instead of `void`) which indicates whether the item was contained in the set when that method was called:
+The `Set` interface extends from the [`Collection`][collection-docs] and [`Iterable`][iterable-docs] interfaces, and therefore shares a lot of methods with
+other types of collections.
+A notable difference to the `Collection` interface, however, is that methods like `add` and `remove` return a `boolean` (instead of `void`) which indicates
+whether the item was contained in the set when that method was called:
 
 ```java
 Set<Integer> set = new HashSet<>();
@@ -54,9 +56,13 @@ set.size();
 ```
 
 [collection-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html
+
 [hashset-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/HashSet.html
+
 [iterable-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Iterable.html
+
 [set-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html
+
 [unmodifiable-set-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html#unmodifiable
 
 ## Instructions

@@ -12,7 +12,8 @@
 ## 2. Check how many birds visited today
 
 - Remember that the counts are ordered by day from oldest to most recent, with the last element representing today.
-- Accessing the last element can be done either by using its (fixed) index (remember to start counting from zero) or by calculating its index using the array's size.
+- Accessing the last element can be done either by using its (fixed) index (remember to start counting from zero) or by calculating its index using the array's
+  size.
 
 ## 3. Increment today's count
 

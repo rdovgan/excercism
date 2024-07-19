@@ -31,7 +31,8 @@ Choose your operating system:
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-5. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+5. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 
@@ -57,7 +58,8 @@ Good luck! Have fun!
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-4. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+4. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 
@@ -83,13 +85,16 @@ Good luck! Have fun!
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-4. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+4. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 
 ## Submitting your solution
 
-You can submit your solution using the `exercism submit src/main/java/ExperimentalRemoteControlCar.java src/main/java/ProductionRemoteControlCar.java src/main/java/RemoteControlCar.java src/main/java/TestTrack.java` command.
+You can submit your solution using
+the `exercism submit src/main/java/ExperimentalRemoteControlCar.java src/main/java/ProductionRemoteControlCar.java src/main/java/RemoteControlCar.java src/main/java/TestTrack.java`
+command.
 This command will upload your solution to the Exercism website and print the solution page's URL.
 
 It's possible to submit an incomplete solution which allows you to:

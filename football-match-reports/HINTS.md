@@ -11,5 +11,7 @@
 - The [`default`][default] statement can be used here.
 
 [switch-statement]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
 [break]: https://www.w3schools.com/java/ref_keyword_break.asp
+
 [default]: https://www.w3schools.com/java/ref_keyword_default.asp

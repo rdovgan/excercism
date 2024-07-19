@@ -122,7 +122,8 @@ scheduler.hasPassed(LocalDateTime.of(1999, 12, 31, 9, 0, 0));
 
 ## 3. Check if appointment is in the afternoon
 
-Implement the `AppointmentScheduler.isAfternoonAppointment()` method that takes an appointment date and checks if the appointment is in the afternoon (>= 12:00 and < 18:00):
+Implement the `AppointmentScheduler.isAfternoonAppointment()` method that takes an appointment date and checks if the appointment is in the afternoon (>= 12:00
+and < 18:00):
 
 ```java
 AppointmentScheduler scheduler = new AppointmentScheduler();
