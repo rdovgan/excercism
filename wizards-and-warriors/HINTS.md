@@ -52,6 +52,9 @@ The whole inheritance concept has a lot to do with the concepts around [overridi
 - Use a [conditional statement][if-else] to return the damage points, taking into account the value of the prepare spell field.
 
 [inheritance-concept]: https://www.geeksforgeeks.org/inheritance-in-java/
+
 [object-class-java]: https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html
+
 [java-overriding]: https://docs.oracle.com/javase/tutorial/java/IandI/override.html
+
 [if-else]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html

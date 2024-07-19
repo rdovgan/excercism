@@ -43,7 +43,7 @@ Array elements may be assigned and accessed using a bracketed index notation:
 
 ```java
 // Assign second element by index
-twoInts[1] = 8;
+twoInts[1]=8;
 
 // Retrieve the second element by index and assign to the int element
 int secondElement = twoInts[1];
@@ -51,25 +51,31 @@ int secondElement = twoInts[1];
 
 Accessing an index that is outside of the valid indexes for the array results in an `IndexOutOfBoundsException`.
 
-Arrays can be manipulated by either calling an array instance's methods or properties, or by using the static methods defined in the `Arrays` class (typically only used in generic code).
+Arrays can be manipulated by either calling an array instance's methods or properties, or by using the static methods defined in the `Arrays` class (typically
+only used in generic code).
 The most commonly used property for arrays is its length which can be accessed like this:
 
 ```java
 int arrayLength = someArray.length;
 ```
 
-Java also provides a helpful utility class [`java.util.Arrays`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html) that has lots of useful array-related methods (eg. `Arrays.equals`).
+Java also provides a helpful utility class [`java.util.Arrays`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html) that has
+lots of useful array-related methods (eg. `Arrays.equals`).
 
-Java also supports [multi-dimensional arrays](https://www.programiz.com/java-programming/multidimensional-array) like `int[][] arr = new int[3][4];` which can be very useful.
+Java also supports [multi-dimensional arrays](https://www.programiz.com/java-programming/multidimensional-array) like `int[][] arr = new int[3][4];` which can
+be very useful.
 
 The fact that an array is also a _collection_ means that, besides accessing values by index, you can iterate over _all_ its values using a `for-each` loop:
 
 ```java
 char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
 
-for(char vowel: vowels) {
-    // Output the vowel
-    System.out.print(vowel);
+for(
+char vowel:vowels){
+		// Output the vowel
+		System.out.
+
+print(vowel);
 }
 
 // => aeiou
@@ -80,9 +86,13 @@ If you want more control over which values to iterate over, a `for` loop can be 
 ```java
 char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
 
-for (int i = 0; i < 3; i++) {
-    // Output the vowel
-    System.out.print(vowels[i]);
+for(
+int i = 0;
+i< 3;i++){
+		// Output the vowel
+		System.out.
+
+print(vowels[i]);
 }
 
 // => aei
@@ -96,7 +106,8 @@ You have six tasks, all dealing with the numbers of birds that visited your gard
 
 ## 1. Check what the counts were last week
 
-For comparison purposes, you always keep a copy of last week's counts nearby, which were: 0, 2, 5, 3, 7, 8 and 4. Implement the `BirdWatcher.getLastWeek()` method that returns last week's counts:
+For comparison purposes, you always keep a copy of last week's counts nearby, which were: 0, 2, 5, 3, 7, 8 and 4. Implement the `BirdWatcher.getLastWeek()`
+method that returns last week's counts:
 
 ```java
 BirdWatcher.getLastWeek();
@@ -105,12 +116,15 @@ BirdWatcher.getLastWeek();
 
 ## 2. Check how many birds visited today
 
-Implement the `BirdWatcher.getToday()` method to return how many birds visited your garden today. The bird counts are ordered by day, with the first element being the count of the oldest day, and the last element being today's count.
+Implement the `BirdWatcher.getToday()` method to return how many birds visited your garden today. The bird counts are ordered by day, with the first element
+being the count of the oldest day, and the last element being today's count.
 
 ```java
 int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
 BirdWatcher birdCount = new BirdWatcher(birdsPerDay);
-birdCount.getToday();
+birdCount.
+
+getToday();
 // => 1
 ```
 
@@ -121,30 +135,40 @@ Implement the `BirdWatcher.incrementTodaysCount()` method to increment today's c
 ```java
 int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
 BirdWatcher birdCount = new BirdWatcher(birdsPerDay);
-birdCount.incrementTodaysCount();
-birdCount.getToday();
+birdCount.
+
+incrementTodaysCount();
+birdCount.
+
+getToday();
 // => 2
 ```
 
 ## 4. Check if there was a day with no visiting birds
 
-Implement the `BirdWatcher.hasDayWithoutBirds()` method that returns `true` if there was a day at which zero birds visited the garden; otherwise, return `false`:
+Implement the `BirdWatcher.hasDayWithoutBirds()` method that returns `true` if there was a day at which zero birds visited the garden; otherwise,
+return `false`:
 
 ```java
 int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
 BirdWatcher birdCount = new BirdWatcher(birdsPerDay);
-birdCount.hasDayWithoutBirds();
+birdCount.
+
+hasDayWithoutBirds();
 // => true
 ```
 
 ## 5. Calculate the number of visiting birds for the first number of days
 
-Implement the `BirdWatcher.getCountForFirstDays()` method that returns the number of birds that have visited your garden from the start of the week, but limit the count to the specified number of days from the beginning of the week.
+Implement the `BirdWatcher.getCountForFirstDays()` method that returns the number of birds that have visited your garden from the start of the week, but limit
+the count to the specified number of days from the beginning of the week.
 
 ```java
 int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
 BirdWatcher birdCount = new BirdWatcher(birdsPerDay);
-birdCount.getCountForFirstDays(4);
+birdCount.
+
+getCountForFirstDays(4);
 // => 14
 ```
 
@@ -156,7 +180,9 @@ Implement the `BirdWatcher.getBusyDays()` method to return the number of busy da
 ```java
 int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
 BirdWatcher birdCount = new BirdWatcher(birdsPerDay);
-birdCount.getBusyDays();
+birdCount.
+
+getBusyDays();
 // => 2
 ```
 

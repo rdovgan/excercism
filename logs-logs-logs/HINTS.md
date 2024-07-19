@@ -18,5 +18,7 @@
 - You can add fields and methods to an enum type, see the [tutorial on working with enums][java-tutorial-enum-types].
 
 [java-tutorial-enum-types]: https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+
 [java-tutorial-switch-statement]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
 [java-docs-substring]: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-int-

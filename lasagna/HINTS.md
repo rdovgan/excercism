@@ -32,7 +32,11 @@
 - You can use the [mathematical operator for addition][operators] to add values.
 
 [methods]: https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
+
 [return]: https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html
+
 [operators]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+
 [integers]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
 [invocation]: https://docs.oracle.com/javase/tutorial/java/javaOO/usingobject.html

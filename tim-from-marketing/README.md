@@ -16,7 +16,8 @@ By convention, they start with a lowercase letter e.g `int`.
 Reference types contain the memory address of an object can have a value of null.
 These variables usually start with an uppercase e.g `String`.
 
-Attempting to assign a primitive variable a value of `null` will result in a compile time error as the variable always holds a primitive value of the type assigned.
+Attempting to assign a primitive variable a value of `null` will result in a compile time error as the variable always holds a primitive value of the type
+assigned.
 
 ```java
 //Throws compile time error stating the required type is int, but null was provided
@@ -50,7 +51,8 @@ Note that the department should be uppercased on the label.
 ## 2. Print a badge for a new employee
 
 Due to a quirk in the computer system, new employees occasionally don't yet have an ID when they start working at the factory.
-As badges are required, they will receive a temporary badge without the ID prefix. Modify the `Badge.print()` method to support new employees that don't yet have an ID:
+As badges are required, they will receive a temporary badge without the ID prefix. Modify the `Badge.print()` method to support new employees that don't yet
+have an ID:
 
 ```java
 Badge badge = new Badge();

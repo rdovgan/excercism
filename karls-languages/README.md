@@ -23,7 +23,8 @@ class Container {
 ```
 
 Since it accepts and returns Object types, it works with any non-primitive type.
-However, this comes at a cost because some code may call `get` expecting `Integer`s while other code calls `set` adding `String`s resulting in a runtime exception.
+However, this comes at a cost because some code may call `get` expecting `Integer`s while other code calls `set` adding `String`s resulting in a runtime
+exception.
 
 A **generic class** and **generic interface** have the following formats:
 
@@ -32,7 +33,8 @@ class ClassName<T1, T2, ..., Tn> { ... }
 interface InterfaceName<T1, T2, ..., Tn> { ... }
 ```
 
-The type parameter section, delimited by angle brackets (`<>`), following the class or interface name specifies the type parameters (also called type variables) `T1`, `T2`, ..., and `Tn`.
+The type parameter section, delimited by angle brackets (`<>`), following the class or interface name specifies the type parameters (also called type
+variables) `T1`, `T2`, ..., and `Tn`.
 These can be used inside the body of the class or interface to get generic type safety.
 
 Here is the generic version of `Container`:

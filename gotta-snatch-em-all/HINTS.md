@@ -28,5 +28,7 @@
 - The [`Set` interface][set-docs] has a method that adds all items contained in another `Collection`.
 
 [hashset-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/HashSet.html
+
 [set-add-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html#add(E)
+
 [set-docs]: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html

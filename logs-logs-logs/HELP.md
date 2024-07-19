@@ -31,7 +31,8 @@ Choose your operating system:
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-5. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+5. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 
@@ -57,7 +58,8 @@ Good luck! Have fun!
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-4. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+4. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 
@@ -83,7 +85,8 @@ Good luck! Have fun!
 
    _(Don't worry about the tests failing, at first, this is how you begin each exercise.)_
 
-4. Solve the exercise. Find and work through the `instructions.append.md` guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
+4. Solve the exercise. Find and work through the `instructions.append.md`
+   guide ([view on GitHub](https://github.com/exercism/java/blob/main/exercises/practice/hello-world/.docs/instructions.append.md#tutorial)).
 
 Good luck! Have fun!
 

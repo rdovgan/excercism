@@ -17,4 +17,5 @@
 - If the salary exceeds the maximum, ignore the final value and use the maximum value instead.
 
 [ternary-operator-first]: https://www.programiz.com/java-programming/ternary-operator
+
 [ternary-operator-second]: https://www.baeldung.com/java-ternary-operator

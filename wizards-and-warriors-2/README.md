@@ -120,7 +120,8 @@ new GameMaster().describe(TravelMethod.HORSEBACK);
 
 ## 4. Describe a character traveling to a destination
 
-When a character is traveling to a destination, this is described as a combination of the individual descriptions: `"<CHARACTER> <TRAVEL_METHOD> <DESTINATION>"`.
+When a character is traveling to a destination, this is described as a combination of the individual
+descriptions: `"<CHARACTER> <TRAVEL_METHOD> <DESTINATION>"`.
 Implement the `GameMaster.describe` method that takes a `Character`, a `Destination` and a `TravelMethod` as its parameters and return its description.
 
 ```java

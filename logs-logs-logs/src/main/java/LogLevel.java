@@ -1,3 +1,3 @@
 public enum LogLevel {
-    // TODO: define members for each log level
+	// TODO: define members for each log level
 }

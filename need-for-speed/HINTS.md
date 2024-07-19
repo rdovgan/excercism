@@ -32,5 +32,7 @@
 - Remember that the car has a method to retrieve the distance it has driven.
 
 [constructor-syntax]: https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
+
 [instance-constructors]: https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html
+
 [fields]: https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html
