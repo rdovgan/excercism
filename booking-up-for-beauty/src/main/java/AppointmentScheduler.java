@@ -1,24 +1,28 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 class AppointmentScheduler {
 	public LocalDateTime schedule(String appointmentDateDescription) {
-		throw new UnsupportedOperationException("Please implement the AppointmentScheduler.schedule() method");
+		DateTimeFormatter parser = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");
+		return LocalDateTime.parse(appointmentDateDescription, parser);
 	}
 
 	public boolean hasPassed(LocalDateTime appointmentDate) {
-		throw new UnsupportedOperationException("Please implement the AppointmentScheduler.hasPassed() method");
+		return appointmentDate.isBefore(LocalDateTime.now());
 	}
 
 	public boolean isAfternoonAppointment(LocalDateTime appointmentDate) {
-		throw new UnsupportedOperationException("Please implement the AppointmentScheduler.isAfternoonAppointment() method");
+		return appointmentDate.getHour() >= 12 && appointmentDate.getHour() < 18;
 	}
 
 	public String getDescription(LocalDateTime appointmentDate) {
-		throw new UnsupportedOperationException("Please implement the AppointmentScheduler.getDescription() method");
+		DateTimeFormatter printer = DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy, 'at' h:mm a", Locale.ENGLISH);
+		return "You have an appointment on " + printer.format(appointmentDate) + ".";
 	}
 
 	public LocalDate getAnniversaryDate() {
-		throw new UnsupportedOperationException("Please implement the AppointmentScheduler.getAnniversaryDate() method");
+		return LocalDate.now().withMonth(9).withDayOfMonth(15);
 	}
 }
