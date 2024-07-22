@@ -2,6 +2,6 @@ rootProject.name = 'java-exercises'
 
 include 'annalyns-infiltration', 'bird-watcher', 'booking-up-for-beauty', 'calculator-conundrum',
         'captains-log', 'cars-assemble', 'custom-set', 'elons-toy-car', 'football-match-reports',
-        'gotta-snatch-em-all', 'hello-world', 'karls-languages', 'lasagna', 'log-levels', 'logs-logs-logs',
+        'gotta-snatch-em-all', 'hello-world', 'karls-languages', 'lasagna', 'leap', 'log-levels', 'logs-logs-logs',
         'need-for-speed', 'remote-control-competition', 'robot-name', 'salary-calculator', 'secrets',
         'squeaky-clean', 'tim-from-marketing', 'wizards-and-warriors', 'wizards-and-warriors-2'
