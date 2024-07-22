@@ -1,12 +1,14 @@
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class TestTrack {
 
 	public static void race(RemoteControlCar car) {
-		throw new UnsupportedOperationException("Please implement the (static) TestTrack.race() method");
+		car.drive();
 	}
 
 	public static List<ProductionRemoteControlCar> getRankedCars(List<ProductionRemoteControlCar> cars) {
-		throw new UnsupportedOperationException("Please implement the (static) TestTrack.getRankedCars() method");
+		return cars.stream().sorted(Comparator.reverseOrder()).toList();
 	}
 }
